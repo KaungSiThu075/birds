@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { GrLinkNext } from "react-icons/gr";
+import Feather from "../../img/feather.png";
 
 const ThirdCard = () => {
   const [isHover, setIsHover] = useState(false);
@@ -12,11 +13,7 @@ const ThirdCard = () => {
       onMouseOut={() => setIsHover(false)}
     >
       <div className="flex items-center justify-center ">
-        <img
-          className=" h-40 w-40"
-          src="../../img/feather.png"
-          alt="wiki to birds"
-        />
+        <img className=" h-40 w-40" src={Feather} alt="wiki to birds" />
       </div>
       <div className="flex items-center justify-between">
         <p className="text-white text-xl font-semibold">Wikipedia</p>
