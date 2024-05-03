@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import BirdLogo from "../../src/assets/BirdLogo.png";
+import BirdLogo from "../assets/BirdLogo.png";
 
 const Nav = () => {
   return (
