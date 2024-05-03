@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { GrLinkNext } from "react-icons/gr";
 import { useState } from "react";
+import BigBirdLogo from "../assets/BirdLogo.png";
 
 const FirstCard = () => {
   const [isHover, setIsHover] = useState(false);
@@ -17,8 +18,8 @@ const FirstCard = () => {
           {/* image  */}
           <img
             className=" h-60 w-60 rounded-tl-3xl rounded-br-3xl"
-            src="../../img/BigBirdLogo.jpg"
-            alt=""
+            src={BigBirdLogo}
+            alt="BigBirdLogo"
           />
           {/* image  */}
         </div>
