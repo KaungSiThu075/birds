@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { GrLinkNext } from "react-icons/gr";
 import { useState } from "react";
-import BigBirdLogo from "../../img/BigBirdLogo.jpg";
+import BigBirdLogo from "../../../birds-app/img/BigBirdLogo.jpg";
 
 const FirstCard = () => {
   const [isHover, setIsHover] = useState(false);
