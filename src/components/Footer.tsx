@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import BirdLogo from "../assets/BirdLogo.png";
 
 const Footer = () => {
   return (
     <div className=" py-28 text-gray-400 flex flex-col items-center justify-between gap-8">
       <div>
-        <img className=" h-14" src="../../src/assets/BirdLogo.png" alt="" />
+        <img className=" h-14" src={BirdLogo} alt="BirdLogo" />
       </div>
 
       <div className="flex items-center justify-center gap-20">
