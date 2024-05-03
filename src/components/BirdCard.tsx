@@ -17,8 +17,6 @@ const BirdCard: React.FC<BirdCardProps> = ({
 }) => {
   const [isHover, setIsHover] = useState(false);
 
-  const modifyBirdImagePath = `../../${BirdImagePath}`;
-
   return (
     <div
       onMouseOver={() => setIsHover(true)}
@@ -31,7 +29,7 @@ const BirdCard: React.FC<BirdCardProps> = ({
       <Link to={`${BirdId}`}>
         <div className="flex items-center justify-center">
           <img
-            src={modifyBirdImagePath}
+            src={`../${BirdImagePath}`}
             alt={BirdEnglishName}
             className=" rounded-3xl"
           />
