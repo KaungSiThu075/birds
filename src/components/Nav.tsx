@@ -1,13 +1,10 @@
 import { NavLink } from "react-router-dom";
+import BirdLogo from "../../src/assets/BirdLogo.png";
 
 const Nav = () => {
   return (
     <div className=" flex justify-between items-center pb-20">
-      <img
-        src="../../src/assets/BirdLogo.png"
-        alt="Bird Logo"
-        className=" w-12 h-12"
-      />
+      <img src={BirdLogo} alt="Bird Logo" className=" w-12 h-12" />
       <div className=" hidden  sm:flex sm:justify-between sm:items-center sm:gap-10">
         <NavLink
           className={({ isActive }) =>
