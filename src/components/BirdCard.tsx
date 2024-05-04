@@ -29,7 +29,7 @@ const BirdCard: React.FC<BirdCardProps> = ({
       <Link to={`${BirdId}`}>
         <div className="flex items-center justify-center">
           <img
-            src={`assets/${BirdImagePath}`}
+            src={`../assets/${BirdImagePath}`}
             alt={BirdEnglishName}
             className=" rounded-3xl"
           />
