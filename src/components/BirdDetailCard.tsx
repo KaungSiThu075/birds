@@ -22,7 +22,7 @@ const BirdDetailCard: React.FC<BirdCardProps> = ({
       <div className="flex items-center justify-center bg-neutral-900 rounded-3xl ">
         <img
           className=" p-5 rounded-3xl "
-          src={BirdImagePath}
+          src={`../../${BirdImagePath}`}
           alt={BirdEnglishName}
         />
       </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { GrLinkNext } from "react-icons/gr";
-import Feather from "../../../birds-app/img/feather.png";
+import Feather from "../../img/feather.png";
 
 const ThirdCard = () => {
   const [isHover, setIsHover] = useState(false);
