@@ -20,7 +20,7 @@ const BirdDetailPage = () => {
                 BirdDescription={bird.Description}
                 BirdEnglishName={bird.BirdEnglishName}
                 BirdMyanmarName={bird.BirdMyanmarName}
-                BirdImagePath={bird.ImagePath}
+                BirdImagePath={`../../${bird.ImagePath}`}
               />
             );
           })}

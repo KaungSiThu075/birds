@@ -16,7 +16,7 @@ const BirdsPage = () => {
               <BirdCard
                 key={bird.Id}
                 BirdId={bird.Id}
-                BirdImagePath={bird.ImagePath}
+                BirdImagePath={`../../${bird.ImagePath}`}
                 BirdEnglishName={bird.BirdEnglishName}
                 BirdMyanmarName={bird.BirdMyanmarName}
               />
